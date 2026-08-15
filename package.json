@@ -1,0 +1,24 @@
+{
+  "name": "elderlink-a3",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm.cmd run build && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "firebase": "^12.17.1",
+    "jspdf": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "vue": "^3.5.38"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "firebase-tools": "^14.27.0",
+    "vite": "^8.0.16"
+  }
+}
