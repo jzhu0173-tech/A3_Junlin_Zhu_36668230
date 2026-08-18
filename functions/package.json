@@ -1,0 +1,11 @@
+{
+  "name": "elderlink-a3-functions",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "firebase-functions": "^6.0.1"
+  }
+}
