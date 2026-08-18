@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm.cmd run build && firebase deploy --only hosting"
+    "deploy:pages": "npm.cmd run build"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.7",
-    "firebase-tools": "^14.27.0",
     "vite": "^8.0.16"
   }
 }
